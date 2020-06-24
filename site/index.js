@@ -17,7 +17,7 @@ $.get('data.txt', function(data) {
                 }
             }
 
-            if(info[0] == '*your_username'){
+            if(info[0] == '#your_username'){
                 if(isValidUrl(info[1])){
                     $('body').append('<div class="messageP1"><a class="P1">'+info[1]+'</a></div>');
                 }else{
