@@ -15,10 +15,10 @@ but can be used for:
 ## Uses of functions in python
 ### save_file
 Takes the content of the json file and saves the needed content in a new file.
-![save_info](save_info.png)
+![save_info](img/save_info.png)
 ### get_index
 Given the content of the json file and the string which is wanted to be found and in return you get the place in the list wher it's places.
-![find_index.png](find_index.png)
+![find_index.png](img/find_index.png)
 
 ## More
 ### JS change name
