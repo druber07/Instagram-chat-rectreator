@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Rubik', sans-serif;
+}
+body{
+	background: #222831;
+}
+
+.date{
+	display: flex;
+  	justify-content: center;
+  	color: #eeeeee;
+}
+
+.messageP1{
+	display: flex;
+	justify-content: flex-start;
+}
+.P1{
+	border-radius: 0 20px 20px 20px;
+	margin:20px;
+	padding: 8px 10px 8px 10px;
+	color: #393e46;
+  	background: #eeeeee;
+}
+
+.messageP2{
+	display: flex;
+  	justify-content: flex-end;
+}
+.P2{
+	border-radius: 20px 0px 20px 20px;
+	margin:20px;
+	padding: 8px 10px 8px 10px;
+	color: #393e46;
+  	background: #00adb5;
+}
