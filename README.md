@@ -9,7 +9,7 @@ but can be used for:
 
 ## How to use?
 1. Open 'Extractor.py' file and write the name of your chat mate.
-2. [pls work](#js name)
+2. [Open 'index.js' file and change 'your_username' - at line 20.](#Instruction)
 3. Open 'index.html' and that's it.
 
 ## Uses of functions in python
@@ -20,8 +20,5 @@ Takes the content of the json file and saves the needed content in a new file.
 Given the content of the json file and the string which is wanted to be found and in return you get the place in the list wher it's places.
 ![find_index.png](img/find_index.png)
 
-## More
-### js name
+## Instruction
 ![js change](img/change.png)
-
-Open 'index.js' file and change 'your_username' - at line 20.
