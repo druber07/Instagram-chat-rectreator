@@ -1,7 +1,7 @@
 # Instagram chat rectreator
-Recreate instagram chats
 --
 ## The idea
+### Recreate instagram chats
 Main use is to recreate instagram chats to comfortly read old messages, 
 but can be used for:
 * [Find information in json files](#get_index)
