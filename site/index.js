@@ -17,11 +17,11 @@ $.get('data.txt', function(data) {
                 }
             }
 
-            if(info[0] == '#your_username'){
+            if(info[0] == 'alikreznik'){
                 if(isValidUrl(info[1])){
-                    $('body').append('<div class="messageP1"><a class="P1">'+info[1]+'</a></div>');
+                    $('body').append('<div class="messageP2"><a class="P2">'+info[1]+'</a></div>');
                 }else{
-                    $('body').append('<div class="messageP2"><p class="P2">'+info[1]+'</p></div>');
+                    $('body').append('<div class="messageP1"><p class="P1">'+info[1]+'</p></div>');
                 }
             }else{
                 if(isValidUrl(info[1])){

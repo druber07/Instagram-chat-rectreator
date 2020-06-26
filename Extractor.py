@@ -1,4 +1,6 @@
 import json,io
+import os
+import webbrowser
 
 def get_Date(date):
 	date = date.split('T')
@@ -52,6 +54,10 @@ def get_index(name, data):
 	print('Task failed, user was not found')
 	return(-1)	
 
+def run_chat():
+	webbrowser.get("C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s").open("http://localhost:8000/")
+	os.system('cmd /k "python -m http.server 8000"')
+
 if __name__ == "__main__":
 	name = input('Enter username\n')
 
@@ -62,3 +68,5 @@ if __name__ == "__main__":
 	index = get_index(name, data)
 	if(index != -1):
 		save_file(index, data)
+
+		run_chat()
